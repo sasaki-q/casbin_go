@@ -1,0 +1,20 @@
+[
+  {
+      "PType": "p",
+      "V0": "member",
+      "V1": "*",
+      "V2": "*"
+  },
+  {
+      "PType": "p",
+      "V0": "guest",
+      "V1": "/api/guest/*",
+      "V2": "*"
+  },
+  {
+    "PType": "p",
+    "V0": "guest",
+    "V1": "/api/member/users/5",
+    "V2": "DELETE"
+  }
+]
